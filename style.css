@@ -103,6 +103,7 @@ textarea{
     resize: horizontal;
     font-size: 16px;
     height: 60px;
+    border-radius: 5px;
 }
 
 
@@ -129,5 +130,7 @@ input::placeholder{
     font-family: 'Comfortaa', cursive;
 
 }
+
+
 
 
