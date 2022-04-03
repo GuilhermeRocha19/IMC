@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Cálculo IMC</title>
+</head>
+<body>
+    <header>
+        <h1 class="tittle">Cálculo IMC</h1>
+    </header>
+    <main>
+        <h2 class="subtittle">O que é?</h2>
+        <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa. <br><br>
+             O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9. <br><br>
+            Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>   
+            
+            
+        <div class="conta">
+            <h1>Calculador de IMC</h1>
+            <div class="input">
+                <h2>Altura</h2>
+                <input id="altura" type="number" placeholder="Altura (cm)">
+            </div>
+            
+            <div class="input">
+                <h2>Peso</h2>
+                <input id="peso" type="number" placeholder="Peso (kg)">
+            </div>
+        
+            <button onclick="calcular()" >Calcular</button>
+            <textarea name="" id="resultado" cols="30" rows="10"></textarea>
+        </div>
+        
+    </main>
+
+    <footer>
+        <p>
+            Site desenvolvido por <a target="_blank" href="https://www.instagram.com/guipmr/">Guilherme Pinheiro Machado da Rocha</a>.
+        </p>
+    </footer>
+    <script src="index.js"></script>
+    
+</body>
+</html>
